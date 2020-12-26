@@ -30,4 +30,4 @@ rename rows and columns accordingly, using labels and features
 
 ## An independent tidy dataset
 NewData = a summary for each activity label and subject
-New_data.csv = a new file created to store the cleaned dataset
+New_data.txt = a new file created to store the cleaned dataset

@@ -40,8 +40,8 @@ NewData <- cbind(subject, y, x) %>%
         group_by(Activities, Subject) %>%
         summarise_each(funs(mean))
 ## Create a new file to store a tidy data set 
-file.create("./UCI_HAR/New_data.csv")
-write.table(NewData, file="./UCI_HAR/New_data.csv", 
-            row.names=TRUE, col.names = TRUE, 
+file.create("./UCI_HAR/New_data.txt")
+write.table(NewData, file="./UCI_HAR/New_data.txt", 
+            row.names=FALSE, col.names = TRUE, 
             sep = ",", quote = FALSE)
  
